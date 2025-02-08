@@ -12,7 +12,7 @@ function Contact() {
   return (
     <div className="min-h-screen flex items-center justify-center">
       <Navbar />
-      <div className="space-y-5 w-[500px] border shadow-2xl p-5">
+      <div className="space-y-5 w-[500px] border shadow-2xl p-5 rounded-md">
         <h1>Contact Us</h1>
         <form onSubmit={handleSubmit(onSubmit)} className="space-y-7">
           <div className="space-y-3">
